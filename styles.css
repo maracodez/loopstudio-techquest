@@ -291,7 +291,7 @@
     }
     
     #desk-img {
-      margin-left: -2.5%;
+      margin: 0 auto;
     }
       
     section div:nth-child(2) {
@@ -389,6 +389,10 @@
 		font-size: 2.9rem;
 	}
 
+  #desk-img {
+    margin-left: -3%;
+  }
+
 	footer {
 		margin-top: 10vh;
 		padding-inline: 6vw;
@@ -450,7 +454,7 @@
 
     #mob-img {
       display: block;
-      width: 82vw;
+      width: 100%;
     }
 
     #desk-img {
@@ -493,7 +497,7 @@
       text-transform: uppercase;
       padding-inline: 50px;
       padding-block: 10px;
-      margin-left: 30%;
+      margin: 0 auto;
 	    font-size: 1.5rem;
       cursor: pointer;
     }
@@ -587,7 +591,7 @@
   .word {
     font-size: 1rem;
     line-height: 1.7rem;
-  padding: 5px;
+    padding: 5px;
   }
 
   .footer-left {
